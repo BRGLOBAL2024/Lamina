@@ -190,7 +190,7 @@ def main():
 
         st.title(f'Estratégia Internacional - {mes_recente_pt}')
         st.markdown("""
-            Bem-vindo ao painel de análise de investimentos. Utilize a barra lateral para navegar entre diferentes seções.
+            Bem-vindo ao painel de análise de investimentos.
         """)
         st.markdown("---")
 
