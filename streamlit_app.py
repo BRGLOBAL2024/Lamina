@@ -1,3 +1,11 @@
+import subprocess
+import sys
+
+# Verifique as bibliotecas instaladas
+installed_packages = subprocess.check_output([sys.executable, '-m', 'pip', 'freeze']).decode('utf-8')
+print(installed_packages)
+
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
